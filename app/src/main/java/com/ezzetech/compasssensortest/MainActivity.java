@@ -13,17 +13,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
 
-    // define the display assembly compass picture
     private ImageView image;
-
-    // record the compass picture angle turned
     private float currentDegree = 0f;
-
-    // device sensor manager
     private SensorManager mSensorManager;
-
     TextView tvHeading;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
